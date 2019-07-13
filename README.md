@@ -1,29 +1,29 @@
 # WakMacro
 **Macro para colheita, plantio e corte de recursos no jogo Wakfu.**
 
-**1 - Motivação:** O motivo pelo qual eu quis criar uma macro para coleta de recursos no jogo wakfu foi simplesmente um desafio pessoal. Para obtenção de novos conhecimentos, e claro, a otimização de tempo no jogo(Evitar a parte de grind de recursos)
+**1 - Motivação:** O motivo pelo qual eu quis criar uma macro para coleta de recursos no jogo wakfu foi simplesmente um desafio pessoal. Para obtenção de novos conhecimentos, e claro, a otimização de tempo no jogo("Evitar" a parte de grind de recursos)
 
 AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁRIO A RESOLVER O CAPTCHA DO JOGO. E TAMBÉM A MESMA NÃO POSSUI NENHUMA INTELIGÊNCIA, APENAS MOVIMENTOS LOGICAMENTE REPETIDOS.
 
-**2 - Legalidade:** Sim uma macro é permitida em todos os jogos de RPG. Continue lendo que você entendera o porque
+**2 - Legalidade:** Averiguando no forúm
 
-   **2.1 - Segurança:** Antes de falarmos sobre qualquer outra coisa sobre a macro. É preciso saber se ela é segura. E como saber, bom ela é segura, pois a mesma simula ações realizadas pelo Teclado/Mouse. Tanto que a ela literalmente meche o seu mouse enquanto ela executa.
+   **2.1 - Segurança:** Antes de falarmos sobre qualquer outra coisa sobre a macro. É preciso saber se ela é segura. E como saber? Bom ela é segura, pois a mesma simula ações realizadas pelo Teclado/Mouse. Tanto que a ela literalmente meche o seu mouse enquanto ela executa, então não é um virus ou coisa do genero.
     
-   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Não, pois a linguagem/biblitecas que eu utilizei no projeto são projetadas para criação de rotinas que realizam movimentos com o mouse e digitação de caractéres, ou seja enquanto a macro está sendo executada, seu computador é tomado por ela, pois a mesma realiza as mesmas ações que um usuário realizaria.(Caso queira saber qual linguagem foi utilizada de uma olhada no item ). E como dito anteriormente a macro não foi concebida para operar 24Horas sem parar, pois a mesma necessita que o usuário intervenha em alguns momentos.
+   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Até o presente momento não aconteceu muito, porém não cheguei a utiliza-la muito.
     
-   **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** Muito improvavel, pois como dito anteriormente a macro não é um bot. Ou seja, você ainda precisa realizar a batalha que prova que  não é uma maquina que está jogando na sua conta(BOT). Mesmo se alguém for conversar com você durante o jogo é só pausar fechar a macro e responde-lo.
+   **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** Aguardando a resposta sobre a sua legalidade
 
 **AVISOS SOBRE A MACRO: **
 
-**1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK, E EU SÓ USO ELE PRA COISAS DA FACULDADE.**
+**1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK(caso queira muda isso, basta usar um programa chamado AutoIt Windows Info, e mudar os pixeis onde a macro clica).**
  
 **2° - AS CONFIGURAÇÕES DO JOGO DEVEM SER
 
      JOGABILIDADE: DESMARCAR A OPÇÃO DE PERMITIR A INTERAÇÃO COM O BOTÃO ESQUERDO
       
-                    MARCAR A OPÇÃO QUE PERMITE COLOCAR SEMENTES E GRÕES NA BARRA DE ATALHO
+                   MARCAR: A OPÇÃO QUE PERMITE COLOCAR SEMENTES E GRÕES NA BARRA DE ATALHO
                     
-                    MARCAR A OPÇÃO DE CORRIDA AUTOMATICA
+                   MARCAR: A OPÇÃO DE CORRIDA AUTOMATICA
                     
       VIDEO: EM EXIBIR VC SELECIONA A OPÇÃO "ENQUADRADO"
       
@@ -34,11 +34,11 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
              MARCAR: CAMERA FIXA**
              
       E SEMPRE DEIXAR NO ZOOM MAXIMO
-      QUALQUER COISA MAIS ABAIXO EU MOSTRO UMAS PRINTSCREENS, É SÓ PARECIDO COM O QUE ESTÁ LÁ!
+      QUALQUER COISA MAIS ABAIXO EU MOSTRO UMAS PRINTSCREENS, É SÓ DEIXAR PARECIDO COM O QUE ESTÁ LÁ!
    
 **3 - Funcionamento da Macro**
 
-  **3.1 -** Não entrarei em detalhes tecnicos de como ela funciona, pois estou disponibilizando o código fonte para adequações/modificações. Então se quiser descobrir como ela funciona, dé uma olhada no código fonte. Acredito que esteja bem identado, e com nomenclatura memonica de funcões e variáveis.
+  **3.1 -** Não entrarei em detalhes tecnicos de como ela funciona, pois estou disponibilizando o código fonte para adequações/modificações. Então se quiser descobrir como ela funciona, dé uma olhada no código fonte. Acredito que esteja bem identado, e com nomenclatura menmônica de funcões e variáveis.
   
   **3.1.2** - A Linguagem utilizada na macro foi a AutoIt, é uma linguagem muito simples e fácil de se entender, pois a mesma está bem documentada.
   
@@ -78,7 +78,7 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
                     
                     Repeat_Process= Parametro define quantas vezes você deseja realizar as rotinas da macro
                     
-**Obs.: Os paramentros Harvest, Cut, Replant podem assumir dois valores apenas: True ou False, o parametro Hot_Key_Replant deve indicar em qual atalho está vinculado o item(igual as skills em combate), o parametro Attemps indica quantas vezes você deseja tentar plantar um recurso em um quadrado(se a chance for de 70% entre 2 a 3 tentativas, se for 30% entre 5 e 8 tentativas), o a unidade de medida do tempo é em miliseconds(ms) relembrando que 1000ms = 1s. ATENÇÃO AO TEMPO DE PLANTIO E COLHEITA DE CADA RECURSO.**
+**Obs.: Os paramentros Harvest, Cut, Replant podem assumir dois valores apenas: True ou False, o parametro Hot_Key_Replant deve indicar em qual atalho está vinculado o item(igual as skills em combate), o parametro Attemps indica quantas vezes você deseja tentar plantar um recurso em um quadrado(se a chance for de 70% entre 2 a 3 tentativas, se for 30% entre 5 e 8 tentativas), a unidade de medida do tempo é em miliseconds(ms) lembrando que 1000ms = 1seg. ATENÇÃO AO TEMPO DE PLANTIO E COLHEITA DE CADA RECURSO.**
 
 **Obs. 2: para plantar, você precisa setar os paramentros Harvest e Cut como False caso deseje plantar alguma coisa utilizando a macro.**
   
@@ -92,13 +92,13 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
          
    **NORTE, SUL, LESTE, OESTE para a macro:** https://imgur.com/gallery/iEIG23q
   
-  **3.5 - Preparando o terreno:** Basta achar uma area que de para plantar recursos, certificar-se que não tenha nenhum player por perto(PET'S não tem problema)
+  **3.5 - Preparando o terreno:** Basta achar uma area que de para plantar recursos, certificar-se que não tenha nenhum player por perto(PET'S não tem problema), recomendo utilizar o mundo seguro caso você possua acesso a algum.
   
   **3.6 -** Após configurar o arquivo e achar um terreno, agora basta executar a macro e clicar em Start, caso tenha alguma duvida de como usa-la basta seguir as instruções que ela contem.
 
 **4 - NÃO ABUSE DELA, E PODE COMPARTILHAR COM QUE VOCÊ QUISER. E CLARO EDITAR TAMBÉM**
 
-**5 - Como editar: Bom para edita-la, basta você ser criativo e usar o AutoIt Windows Info, essa ferramente te da as corrdenadas da tela(só não esquece de ativar a opção "Magnify" em configurações, qualquer coisa veja esse vídeo, foi come ele que eu aprendi a usar a linguagem https://www.youtube.com/watch?v=VE5zJanYiUw&t=208s , quanto a IDE usada para programar foi a SciTE Script Editor(ela vem no pacote de instalação do AutoIt) e pra executar vc aperta F5 na IDE(e o debug é da maneira raiz). Qualquer dúvida pode me procurar na guild Confraria do Trevo, ou entrar no discord dela https://discordapp.com/invite/CF2xBRg e mandar uma mensagem no pvt para o Autista**
+**5 - Como editar: Bom para edita-la, basta você ser criativo e usar o AutoIt Windows Info, essa ferramente te da as corrdenadas da tela(só não esquece de ativar a opção "Magnify" em configurações, qualquer coisa veja esse vídeo, foi com ele que eu aprendi a usar a linguagem https://www.youtube.com/watch?v=VE5zJanYiUw&t=208s , quanto a IDE usada para programar foi a SciTE Script Editor(ela vem no pacote de instalação do AutoIt) e pra executar vc aperta F5 na IDE(e o debug é da maneira raiz). Qualquer dúvida pode me procurar na guild Confraria do Trevo, ou entrar no discord dela https://discordapp.com/invite/CF2xBRg e mandar uma mensagem no pvt para o Autista**
 
 P.S.: Esse meu nick no discord me define bem :P
 
@@ -111,6 +111,4 @@ E se vc está se perguntando se tem como fazer um BOT 100% automatico. A respost
 
 Mas se você meu caro padawan quiser tentar fazer um BOT 100% automatico, eu lhe dou uma colher de chá :)
 
-A parte de atomatização é simplismente igual, porem ao invés de clicar em pontos especificos na tela, vc procura por esses pontos(procuro recursos na tela).
-
-Quanto ao puzzle do GATINHOOOOOOOOOOOOOOOO, bom basta usar um I.A. treinada para resolver o puzzle, no meu caso eu usei um pouco de paralelismo para acelelar o processo de identificação dos blocos que devem ser quebrados e apliquei um conceito de um experimento de física quantica(SIM OLHA AS BRISA QUE EU TAVA). Eu peguei varias imagens do mesmo numero no quadradinho e fui combinando elas e eliminando as partes que elas não tinham em comum(Tipo um diagrama de Venn só que em imagens), resultado? eu reduzi em 40% a area que eu preciso buscar, o que rende uns 20 seg a menos na hora de buscar os quadradinhos e uns 30% a mais de acerto. E se você está se perguntando se eu irei utiliza-lo, a resposta é SIM. Porém somente em periodos de tempo onde eu estou ocupado com outra atividade. Ou seja de AGOSTO A DEZEMBRO MUUUUHAHAHHAHAHAHAHAHAHAHAHAHAH, brincadeira irei usar somente quando as aulas voltarem e provavelmente será até eu conseguir um char lvl 200, depois eu volto pro Warframe :p
+Não vai ter colher de chá (:
