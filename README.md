@@ -13,11 +13,11 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
     
    **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** Aguardando a resposta sobre a sua legalidade
 
-**AVISOS SOBRE A MACRO: **
+**AVISOS SOBRE A MACRO:**
 
 **1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK(caso queira muda isso, basta usar um programa chamado AutoIt Windows Info, e mudar os pixeis onde a macro clica).**
  
-**2° - AS CONFIGURAÇÕES DO JOGO DEVEM SER
+**2° - AS CONFIGURAÇÕES DO JOGO DEVEM SER**
 
      JOGABILIDADE: DESMARCAR A OPÇÃO DE PERMITIR A INTERAÇÃO COM O BOTÃO ESQUERDO
       
