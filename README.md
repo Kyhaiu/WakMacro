@@ -18,15 +18,23 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
 **1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK, E EU SÓ USO ELE PRA COISAS DA FACULDADE.**
  
 **2° - AS CONFIGURAÇÕES DO JOGO DEVEM SER
-      JOGABILIDADE: DESMARCAR A OPÇÃO DE PERMITIR A INTERAÇÃO COM O BOTÃO ESQUERDO
+
+     JOGABILIDADE: DESMARCAR A OPÇÃO DE PERMITIR A INTERAÇÃO COM O BOTÃO ESQUERDO
+      
                     MARCAR A OPÇÃO QUE PERMITE COLOCAR SEMENTES E GRÕES NA BARRA DE ATALHO
+                    
                     MARCAR A OPÇÃO DE CORRIDA AUTOMATICA
+                    
       VIDEO: EM EXIBIR VC SELECIONA A OPÇÃO "ENQUADRADO"
+      
              MARCAR: ATIVAR SINCRONIZAÇÃO VERTICAL
+             
              MARCAR: ATIVAR CLASSIFICAÇÃO DE ELEMENTOS MÓVEIS
+             
              MARCAR: CAMERA FIXA**
              
-   **E SEMPRE DEIXAR NO ZOOM MAXIMO**
+      E SEMPRE DEIXAR NO ZOOM MAXIMO
+      QUALQUER COISA MAIS ABAIXO EU MOSTRO UMAS PRINTSCREENS, É SÓ PARECIDO COM O QUE ESTÁ LÁ!
    
 **3 - Funcionamento da Macro**
 
@@ -101,4 +109,8 @@ Quanta XP ela rende por hora? Quanto recurso ela gera? Quantos gatinhos aparecem
 
 E se vc está se perguntando se tem como fazer um BOT 100% automatico. A resposta é SIMMMMMM. E não é muito complicado, quando se tem o conhecimento necessário. E sim eu fiz um BOT pro Wakfu, porém ele viola os termos do jogo, então NÃO não irei disponibiliza-lo. Pois Wakfu é um jogo grande e com muita coisa para se fazer e acima de tudo, uma comunidade boa, coisa RARA hoje em dia em jogos de RPG.
 
-Mas se você meu caro padawan quiser tentar fazer um BOT 100% automatico, eu lhe dou uma colher de chá :) A parte de atomatização é simplismente igual, porem ao invés de clicar em pontos especificos na tela, vc procura por esses pontos(procuro recursos na tela), quanto ao puzzle do GATINHOOOOOOOOOOOOOOOO, bom basta usar um I.A. treinada para resolver o puzzle, no meu caso eu usei um pouco de paralelismo para acelelar o processo de identificação dos blocos que devem ser quebrados e apliquei um conceito de um experimento de física quantica(SIM OLHA AS BRISA QUE EU TAVA) Eu peguei varias imagens do mesmo numero no quadradinho e fui combinando elas e eliminando as partes que elas não tinham em comum, resultado? eu reduzi em 40% a area que eu preciso buscar, o que rende uns 20 seg de otimização e uns 30% a mais de acerto. E se você está se perguntando se eu irei utiliza-la, a resposta é SIM, porém somente em periodos de tempo onde eu estou ocupado com outra atividade. Ou seja de AGOSTO A DEZEMBRO MUUUUHAHAHHAHAHAHAHAHAHAHAHAHAH, brincadeira irei usar somente quando as aulas voltarem e provavelmente será até eu conseguir um char lvl 200, depois eu volto pro Warframe :p
+Mas se você meu caro padawan quiser tentar fazer um BOT 100% automatico, eu lhe dou uma colher de chá :)
+
+A parte de atomatização é simplismente igual, porem ao invés de clicar em pontos especificos na tela, vc procura por esses pontos(procuro recursos na tela).
+
+Quanto ao puzzle do GATINHOOOOOOOOOOOOOOOO, bom basta usar um I.A. treinada para resolver o puzzle, no meu caso eu usei um pouco de paralelismo para acelelar o processo de identificação dos blocos que devem ser quebrados e apliquei um conceito de um experimento de física quantica(SIM OLHA AS BRISA QUE EU TAVA). Eu peguei varias imagens do mesmo numero no quadradinho e fui combinando elas e eliminando as partes que elas não tinham em comum(Tipo um diagrama de Venn só que em imagens), resultado? eu reduzi em 40% a area que eu preciso buscar, o que rende uns 20 seg a menos na hora de buscar os quadradinhos e uns 30% a mais de acerto. E se você está se perguntando se eu irei utiliza-lo, a resposta é SIM. Porém somente em periodos de tempo onde eu estou ocupado com outra atividade. Ou seja de AGOSTO A DEZEMBRO MUUUUHAHAHHAHAHAHAHAHAHAHAHAHAH, brincadeira irei usar somente quando as aulas voltarem e provavelmente será até eu conseguir um char lvl 200, depois eu volto pro Warframe :p
