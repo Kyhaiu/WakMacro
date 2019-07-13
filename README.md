@@ -29,7 +29,7 @@ AVISOS SOBRE A MACRO:
   3.1.2.1 - Como modificar/editar a macro? Bom para isso basta baixar o instalador completo disponibilizado no site da linguagem: https://www.autoitscript.com/site/autoit/downloads/ , baixe o "AutoIt Full Installation", pois o mesmo já vem com todas as ferramentas que você irá precisar.
    3.2 - Como baixar? Basta clicar em Clone or Download, e bom depois em Download .ZIP
    3.3 - Antes de Executar, você precisa configurar os paramentros no arquivo "config.ini"
-   3.3.1 -  Parametros:
+   3.3.1 -  Parametros: 
                     Exit_Key = Tecla para cancelar a macro durante a sua execução(para muda-la você terá que consultar a documentação da função que utiliza ela)
                     Pause_Key= Mesma funcionalidade do 1° parametro, porém ao invés de fechar ela "Pausa a macro"
                     Area_Width= Largura da area
