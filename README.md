@@ -9,7 +9,7 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
 
    **2.1 - Segurança:** Antes de falarmos sobre qualquer outra coisa sobre a macro. É preciso saber se ela é segura. E como saber? Bom ela é segura, pois a mesma simula ações realizadas pelo Teclado/Mouse. Tanto que a ela literalmente meche o seu mouse enquanto ela executa, então não é um virus ou coisa do genero.
     
-   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Até o presente momento não aconteceu muito, porém não cheguei a utiliza-la muito.
+   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Até o presente momento não nada, porém não cheguei a utiliza-la muito.
     
    **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** Aguardando a resposta sobre a sua legalidade
 
