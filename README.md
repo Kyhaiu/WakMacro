@@ -1,5 +1,5 @@
 # WakMacro
-**Macro para colheita, plantio e corte de recursos no jogo Wakfu.
+**Macro para colheita, plantio e corte de recursos no jogo Wakfu.**
 
 **1 - Motivação:** O motivo pelo qual eu quis criar uma macro para coleta de recursos no jogo wakfu foi simplesmente um desafio pessoal. Para obtenção de novos conhecimentos, e claro, a otimização de tempo no jogo(Evitar a parte de grind de recursos)
 
@@ -76,8 +76,11 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
   
   **3.4 -  Como ela movimenta o char:** Na posição inicial ela movimenta da direita para a esquerda de baixo pra cima. Muito confuso? então deixe-me explicar através de imagens.:
          **Posição inicial:** https://imgur.com/gallery/T1qztwI
+         
          **Da direita para a esquerda:** https://imgur.com/gallery/oCbY8Kq
+         
          **De baixo para cima:** https://imgur.com/gallery/UIoGTwz
+         
          **NORTE, SUL, LESTE, OESTE para a macro:** https://imgur.com/gallery/iEIG23q
   
   **3.5 - Preparando o terreno:** Basta achar uma area que de para plantar recursos, certificar-se que não tenha nenhum player por perto(PET'S não tem problema)
