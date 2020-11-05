@@ -3,19 +3,19 @@
 
 **1 - Motivação:** O motivo pelo qual eu quis criar uma macro para coleta de recursos no jogo wakfu foi simplesmente um desafio pessoal. Para obtenção de novos conhecimentos, e claro, a otimização de tempo no jogo("Evitar" a parte de grind de recursos)
 
-AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁRIO A RESOLVER O CAPTCHA DO JOGO. E TAMBÉM A MESMA NÃO POSSUI NENHUMA INTELIGÊNCIA, APENAS MOVIMENTOS LOGICAMENTE REPETIDOS.
+AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁRIO A RESOLVER O CAPTCHA DO JOGO. E TAMBÉM A MESMA NÃO POSSUI NENHUMA INTELIGÊNCIA, APENAS MOVIMENTOS PREDEFINIDOS.
 
 **2 - Legalidade:** Averiguando no forúm
 
-   **2.1 - Segurança:** Antes de falarmos sobre qualquer outra coisa sobre a macro. É preciso saber se ela é segura. E como saber? Bom ela é segura, pois a mesma simula ações realizadas pelo Teclado/Mouse. Tanto que a ela literalmente meche o seu mouse enquanto ela executa, então não é um virus ou coisa do genero.
+   **2.1 - Segurança:** Antes de falarmos sobre qualquer outra coisa sobre a macro. É preciso saber se ela é segura. E como saber? Bom ela é segura, pois a mesma simula ações realizadas pelo Teclado/Mouse. Tanto que a ela literalmente meche o seu mouse enquanto ela executa, então a não ser que o anti-cheat do jogo escaneie cada processo sendo executado em sua máquina, ele não irá saber que se trata de uma macro.
     
-   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Até o presente momento não aconteceu nada, porém não cheguei a utiliza-la muito.
+   **2.1.1 - É passivel de alguma punição por conta de algum anti-cheat?** Até o presente momento não aconteceu nada, porém só usei durante o periodo de 1 mês.
     
-   **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** Aguardando a resposta sobre a sua legalidade
+   **2.1.2 - É Passivel de punição por algum staff(administrador) do jogo?** No forúm me disseram que era ilegal, porem como a mesmo precisa ser assistida. Acredito que não descubram que você esteja usando uma ferramenta externa.
 
 **AVISOS SOBRE A MACRO:**
 
-**1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK(caso queira muda isso, basta usar um programa chamado AutoIt Windows Info, e mudar os pixeis onde a macro clica).**
+**1° - PARA ELA FUNCIONAR ADEQUADAMENTE, A RESOLUÇÃO DA TELA DEVE ESTAR EM 1366 X 768, POIS É A RESOLUÇÃO DA TELA DO MEU NOTEBOOK(caso queira mudar isso, basta usar um programa chamado AutoIt Windows Info, e mudar os pixeis onde a macro clica).**
  
 **2° - AS CONFIGURAÇÕES DO JOGO DEVEM SER**
 
@@ -98,17 +98,4 @@ AVISOS: ESSA MACRO NÃO É UM BOT, POIS A MESMA PRECISA SER ASSISTIDA PELO USUÁ
 
 **4 - NÃO ABUSE DELA, E PODE COMPARTILHAR COM QUE VOCÊ QUISER. E CLARO EDITAR TAMBÉM**
 
-**5 - Como editar: Bom para edita-la, basta você ser criativo e usar o AutoIt Windows Info, essa ferramente te da as corrdenadas da tela(só não esquece de ativar a opção "Magnify" em configurações, qualquer coisa veja esse vídeo, foi com ele que eu aprendi a usar a linguagem https://www.youtube.com/watch?v=VE5zJanYiUw&t=208s , quanto a IDE usada para programar foi a SciTE Script Editor(ela vem no pacote de instalação do AutoIt) e pra executar vc aperta F5 na IDE(e o debug é da maneira raiz). Qualquer dúvida pode me procurar na guild Confraria do Trevo, ou entrar no discord dela https://discordapp.com/invite/CF2xBRg e mandar uma mensagem no pvt para o Autista**
-
-P.S.: Esse meu nick no discord me define bem :P
-
-**Trivias sobre o projeto:**
-Esse projeto foi criado para passar o tempo das férias da faculdade, assim como o fato de eu começar a jogar. Então é provavel que eu pare entre agosto e dezembro, por conta da faculdade/gadear/projetos pessoais.
-
-Quanta XP ela rende por hora? Quanto recurso ela gera? Quantos gatinhos aparecem por hora? e outras duvidas esse video tem a resposta: https://www.youtube.com/watch?v=9U3OyyDlsi0 obviamente ele não tem 1 hora de duração.
-
-E se vc está se perguntando se tem como fazer um BOT 100% automatico. A resposta é SIMMMMMM. E não é muito complicado, quando se tem o conhecimento necessário. E sim eu fiz um BOT pro Wakfu, porém ele viola os termos do jogo, então NÃO não irei disponibiliza-lo. Pois Wakfu é um jogo grande e com muita coisa para se fazer e acima de tudo, uma comunidade boa, coisa RARA hoje em dia em jogos de RPG.
-
-Mas se você meu caro padawan quiser tentar fazer um BOT 100% automatico, eu lhe dou uma colher de chá :)
-
-Não vai ter colher de chá (:
+**5 - Como editar: Bom para edita-la, basta você ser criativo e usar o AutoIt Windows Info, essa ferramente te da as corrdenadas da tela(só não esquece de ativar a opção "Magnify" em configurações, qualquer coisa veja esse vídeo, foi com ele que eu aprendi a usar a linguagem https://www.youtube.com/watch?v=VE5zJanYiUw&t=208s , quanto a IDE usada para programar foi a SciTE Script Editor(ela vem no pacote de instalação do AutoIt) e pra executar vc aperta F5 na IDE(e o debug é da maneira raiz).
