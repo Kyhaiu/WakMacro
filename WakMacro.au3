@@ -82,7 +82,7 @@ Func Requierements()
    	debug("INICIANDO A MACRO")
    	Start(1)
    Else
-   	debug(0, "ERROR", "Por favor altere as configurações e deixe pelo menos REPLANT ou HARVEST ou CUT sendo igual a True.")
+   	MsgBox(0, "ERROR", "Por favor altere as configurações e deixe pelo menos REPLANT ou HARVEST ou CUT sendo igual a True.")
 	ExitScript()
 EndFunc
 
