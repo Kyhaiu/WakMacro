@@ -55,15 +55,12 @@ Global $tCut			= IniRead($config, "settings", "Time_To_Cut", "3700")
 Global $tGrow			= IniRead($config, "settings", "Time_To_Grow", "210000")
 Global $repeatProcess 	= IniRead($config, "settings" , "Repeat_Process", "1")
 
-Global $launcher 		= "[TITLE:Updater Wakfu; CLASS:QWidget]"
-Global $game 			= "[TITLE:WAKFU; CLASS:SunAwtFrame]"
-
 HotKeySet ("{" & $exitKey & "}","ExitScript")
 HotKeySet("{" & $pauseKey & "}", "WildCatApears")
 
 
 Info("Bem vindo a WakMacro by: Ihoru(MARCOS)" & @CRLF)
-Info("Botão Start para começar" & @CRLF)
+Info("BotÃ£o Start para comeÃ§ar" & @CRLF)
 Info("Aperte a tecla 'Pause Break' para quando o gatinho aparecer" & @CRLF)
 Info("Aperte a tecla 'ESC' para sair/cancelar a macro" & @CRLF)
 
@@ -81,37 +78,12 @@ WEnd
 
 Func Requierements()
    ConfigRead()
-   $updater = false
-   $gameWin = false
-   if WinExists($launcher, "") Then
-	  debug("Updater -> OK")
-	  Sleep(1500)
-	  $updater = True
+   if ($replant or $cut or $harvest == "True") Then
+   	debug("INICIANDO A MACRO")
+   	Start(1)
    Else
-	  debug("ERRO: Launcher/Game não encontrado")
-	  Sleep(2000)
-	  MsgBox(0, "ERROR", "Por favor, deixe o Launcher aberto, e então reinicie o script.")
-	  ExitScript()
-   EndIf
-   if WinExists ($game, "") Then
-	  debug("WAKFU -> OK")
-	  $gameWin = True
-	  Sleep(1500)
-	  $updater = True
-   Else
-	  debug("ERRO: Launcher/Game não encontrado")
-	  Sleep(2000)
-	  MsgBox(0, "ERROR", "Por favor, inicie o jogo corretamente, e então reinicie o script. Lembrado de deixar o Laucher aberto")
-	  ExitScript()
-   EndIf
-   if ($gameWin And $updater = true) and ($replant or $cut or $harvest == "True") Then
-	  info("")
-	  debug("INICIANDO A MACRO")
-	  Start(1)
-   Else
-	  MsgBox(0, "ERROR", "COMPRA UMAS GALINHA PRETA UMAS CANINHA E CHAMA UM PAI DE SANTO PRA RESOLVER ESSE ERRO MEU FILHO")
-	  Exit
-   EndIf
+   	debug(0, "ERROR", "Por favor altere as configuraÃ§Ãµes e deixe pelo menos REPLANT ou HARVEST ou CUT sendo igual a True.")
+	ExitScript()
 EndFunc
 
 Func ConfigRead()
@@ -119,10 +91,10 @@ Func ConfigRead()
 	If $hFileOpen = -1 Then
 		$create = FileOpen($config, 1)
 		If $create = -1 Then
-			MsgBox(0,"ERRO","Não foi possivel recriar o arquivo config.ini Mas você pode baixalo em: ")
+			MsgBox(0,"ERRO","NÃ£o foi possivel recriar o arquivo config.ini Mas vocÃª pode baixalo em: ")
 			ExitScript()
 		Else
-			MsgBox(0,"SUCESSO", $config & " Foi criado com sucesso, por favor verifique se as configurações estão corretas e reinicie a macro")
+			MsgBox(0,"SUCESSO", $config & " Foi criado com sucesso, por favor verifique se as configuraÃ§Ãµes estÃ£o corretas e reinicie a macro")
 			WriteDefaultConfig()
 			Exit
 		EndIf
@@ -135,14 +107,14 @@ EndFunc
 
 Func Start($cont)
    if $cont = 1 Then
-	  MsgBox(0, "AVISO", "POSICIONE O SEU PERSONAGEM NA POSIÇÃO INICIAL E APERTE OK!")
+	  MsgBox(0, "AVISO", "POSICIONE O SEU PERSONAGEM NA POSIÃ‡ÃƒO INICIAL E APERTE OK!")
 	  MouseClick("left", 10, 10,1)
    EndIf
    if ($replant == "True") and ($harvest and $cut == "False") Then
 	  Replant()
-	  MsgBox(0, "ALERTA", "Não se esqueça de cortar as plantas existentes, antes de replanta-las!! E Leia o console da macro")
+	  MsgBox(0, "ALERTA", "NÃ£o se esqueÃ§a de cortar as plantas existentes, antes de replanta-las!! E Leia o console da macro")
 	  info("Finalizando a Macro!! caso deseje coletar as sementes ou cortar os recursos, por favor ajuste o arquivo config.ini")
-	  info("Não se esqueça de mudar a setting : 'Replant' para 'False'")
+	  info("NÃ£o se esqueÃ§a de mudar a setting : 'Replant' para 'False'")
 	  sleep(8000)
 	  ExitScript()
    EndIf
@@ -152,7 +124,7 @@ Func Start($cont)
    if $cut == "True" Then
 	  Cut()
    EndIf
-   info("Macro terminou " & $cont & " execuçõe(s) com sucesso!"& @CRLF)
+   info("Macro terminou " & $cont & " execuÃ§Ãµe(s) com sucesso!"& @CRLF)
    sleep(1500)
    if $repeatProcess = 1 Then
 	  ExitScript()
@@ -173,7 +145,7 @@ EndFunc
 Func Replant()
    debug("MAOS A OBRA" & @CRLF)
    for $i = 1 To $height Step +1
-	  info("Começando a plantação da linha: " & $i & @CRLF)
+	  info("ComeÃ§ando a plantaÃ§Ã£o da linha: " & $i & @CRLF)
 	  PlantLine(720,366)
    Next
 EndFunc
@@ -181,7 +153,7 @@ EndFunc
 Func Harvest()
    debug("MAOS A OBRA" & @CRLF)
    for $i = 1 To $height Step +1
-	  info("Começando a colheita da linha: " & $i & @CRLF)
+	  info("ComeÃ§ando a colheita da linha: " & $i & @CRLF)
 	  PickLine(720,366)
    Next
 EndFunc
@@ -192,7 +164,7 @@ Func Cut()
    EndIf
    debug("MAOS A OBRA" & @CRLF)
    for $i = 1 To $height Step +1
-	  info("Começando a recolher os recursos da linha: " & $i & @CRLF)
+	  info("ComeÃ§ando a recolher os recursos da linha: " & $i & @CRLF)
 	  CutLine(720,366)
    Next
 EndFunc
@@ -204,11 +176,11 @@ Func PlantLine($x, $y)
 	  Send("{" & $hkReplant & "}")
 	  for $k = 1 To $attemps Step +1
 		 MouseClick("left", $x, $y, 1)
-		 debug($k & "° tentativa")
+		 debug($k & "Â° tentativa")
 		 Sleep($tPlant)
 	  Next
 	  Send("{" & $hkReplant & "}")
-	  debug("Indo para a próxima área")
+	  debug("Indo para a prÃ³xima Ã¡rea")
 	  Sleep(100)
 	  Mov(1, "o")
    Next
@@ -267,15 +239,15 @@ EndFunc
 Func WildCatApears()
    MsgBox(0, "AVISO", "APERTE OK QUANDO ACABAR A BATALHA")
    Sleep(1500)
-   info("Por favor reinicie a macro pois o gatinho veio e você ficou tão distraido com sua fofura que você esqueceu o que estava fazendo" & @CRLF)
+   info("Por favor reinicie a macro pois o gatinho veio e vocÃª ficou tÃ£o distraido com sua fofura que vocÃª esqueceu o que estava fazendo" & @CRLF)
    Sleep(2000)
-   info("Uma dica!! Mude no arquivo config.ini a largura e altura, para assim começar de onde você tinha parado." & @CRLF)
+   info("Uma dica!! Mude no arquivo config.ini a largura e altura, para assim comeÃ§ar de onde vocÃª tinha parado." & @CRLF)
    MsgBox(0, "AVISO", "PORFAVOR REINICIE A MACRO")
    Exit
 EndFunc
 
 Func ExitScript()
-   info(@CRLF & "Até a proxima :p")
+   info(@CRLF & "AtÃ© a proxima :p")
    Sleep(2000)
    Exit
 EndFunc
